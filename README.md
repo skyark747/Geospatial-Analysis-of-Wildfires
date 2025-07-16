@@ -9,8 +9,8 @@ NOTE: the datasets are provided with corresponding folders so download as is.
 the project notebook and main data folder need to be in same parent directory.
 example,
 
-Files/datasets 
-Files/project.ipynb 
+- Files/datasets 
+- Files/project.ipynb 
 
 open in jupiter notebook.
 click Run All tab.
