@@ -6,7 +6,6 @@ A Spatiotemporal analysis of wildfires in Nevada with environmental factors such
 conda create --n wildire_env python=3.9
 conda activate wildfire_env
 pip install requirements.txt
-
 ```
 
 ## Executing File
