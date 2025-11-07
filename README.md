@@ -47,6 +47,3 @@ pip install -r requirements.txt
                       ...
             |--- temperature-2022/
                       ...
-```
-  
-
