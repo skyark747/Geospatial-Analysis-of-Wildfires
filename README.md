@@ -5,7 +5,7 @@ A Spatiotemporal analysis of wildfires in Nevada with environmental factors such
 1. Install miniconda/Anaconda  [link to official website] https://www.anaconda.com/docs/getting-started/miniconda/install
 ### Setting Environment
 ```
-conda create --n wildire_env python=3.9
+conda create -n wildire_env python=3.9
 conda activate wildfire_env
 pip install -r requirements.txt
 ```
