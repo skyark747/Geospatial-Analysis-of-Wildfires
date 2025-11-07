@@ -9,9 +9,44 @@ conda create --n wildire_env python=3.9
 conda activate wildfire_env
 pip install -r requirements.txt
 ```
-[Link to the dataset] https://www.dropbox.com/scl/fo/8bvchbvzfm6q4yo37720h/AGdjZ2b55yiJZdeZoJ5EcZ0?rlkey=opge4b9x73bthfy28ih0xcd0n&st=2pegqi87&dl=0
+**[Links to the dataset]**
+1. ***Nevada Wildfire Data***
+- https://nvfireintel-nifc.hub.arcgis.com/datasets/eaf3d5985b874ba38ae61a1a1b4093ce_0/explore
+2. ***Environmental Factors***
+- https://prism.oregonstate.edu/normals/
 
-## Executing File
-change path to dataset according to your specifics and run all cells.
+### Dataset Collection and folder structure
+- Download Shapefile for ***Nevada Wildfire Data***
+- Download monthly data for environmental factors i.e *Mean Temperature,Precipitation,Max Vapour Pressure Deficit* for 4km resolution from the link given for website.
 
+  **Folder Structure**
+  ```
+  datasets/
+    |--- California/
+            |--- VPD-2020/
+                    |--- PRISM_vpdmax_stable_4kmM3_202001_bil.bil
+                    |--- PRISM_vpdmax_stable_4kmM3_202002_bil.bil
+                      ...
+            |--- VPD-2021/
+                      ...
+            |--- VPD-2022/
+                      ...
+            |--- precipitation-2020/
+                      |--- PRISM_ppt_stable_4kmM3_202001_bil.bil
+                      |--- PRISM_ppt_stable_4kmM3_202002_bil.bil
+                      ...
+            |--- precipitation-2021/
+                      ...
+            |--- precipitation-2022/
+                      ...
+            |--- temperature-2020/
+                    |--- PRISM_tmean_stable_4kmD2_202001_bil.bil
+                    |--- PRISM_tmean_stable_4kmD2_202002_bil.bil
+                      ...
+            |--- temperature-2021/
+                      ...
+            |--- temperature-2022/
+                      ...
+```
+  
 
